@@ -1,0 +1,199 @@
+<style>
+/********************************
+    bootstrap overrides
+********************************/
+
+
+/*This Centers Bootsrap Row*/
+
+.center {
+    margin: 0 auto;
+    width: 80%;
+}
+
+
+/********************************
+    first.html
+********************************/
+
+body {
+
+}
+
+.header {
+/*    background: #343331;
+    height: 137px;
+    opacity: .8;*/
+}
+
+.first-view-container {
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /*background-image: url('/images/cheap_diagonal_fabric.png');*/
+    background-image: url('/images/married.jpg');    
+}
+
+.first-view-container .nav {
+    list-style-type: none;
+    text-align: center;
+    /*background-image: url('/images/wood_1.png');*/
+    /* width: 80%; */
+    height: 101px;
+    position: relative;
+    top: 20px;
+    /*box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);*/
+    float: right;
+}
+
+.first-view-container .header {
+    background: rgba(255,255,255,.15);
+}
+
+
+.first-view-container .tabs {
+    position: relative;
+    top: 10px;
+    display: inline-block;
+    font-family: 'Raleway';
+    font-size: 18px;
+    color: white;
+    /*box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);*/
+    cursor: pointer;
+    width: 120px;
+}
+
+.first-view-container .tabs:hover {
+    color: #D0D076;
+}
+
+.first-view-container .target {
+    
+}
+
+.first-view-container .tab-labels {
+    padding-top: 12px;
+}
+
+.first-view-container .main-pic {
+    border-radius: 15px;
+    background-image: url('/images/Engagement1.jpg');
+    background-size: cover;
+    height: 375px;
+    width: 576px;
+    margin: 0 auto;
+    margin-top: 75px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    border: 3px solid white;
+    opacity: 1;
+}
+
+.first-view-container .main-pic:hover {
+    opacity: .8;
+}
+
+.first-view-container .main-msg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 40px;
+        text-align: center;
+        border-radius: 2%;
+        cursor: pointer;
+        color: #F5F5F5;
+}
+
+.first-view-container .main-msg span:hover {
+    color: #D0D076;
+}
+
+.first-view-container .main-msg div{
+    font-family: 'Raleway';
+    color: #fff;
+    font-size: 1.1em;
+}
+
+.first-view-container .fa-diamond {
+    color: #8FC7D1;
+}
+
+.first-view-container .fa-bullhorn {
+    color: #F06F0A;
+}
+
+.first-view-container .fa-calendar {
+    color: #F06F0A;
+}
+
+.first-view-container .fa-gamepad {
+    color: #8FC7D1;
+}
+
+.footer {
+    background: green;
+        height: 157px;
+        position: fixed;
+        bottom: 0px;
+        width: 100%;
+}
+
+@media screen and (max-width: 992px) {
+    .first-view-container .main-pic {
+        position: relative;
+        /*top: 241px;*/
+        height: 300px;
+        width: 430px;
+    }
+
+    .first-view-container .main-msg {
+        position: relative;
+        /*top: 220px;*/
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .first-view-container .nav {
+        height: 125px;
+    }
+
+}
+</style>
+
+<div class="first-view-container">
+    <div class="header row">
+        <div class="nav col-xs-12 col-sm-12 col-md-6">
+            <div class="tabs"> 
+            	<div class="tab-labels">Our Wedding</div>
+            </div>
+            <div class="tabs details-tab">
+                <div class="tab-labels">Details</div>
+            </div>
+            <div class="tabs photos-tab"> 
+            	<div class="tab-labels">Photos</div>
+            </div>
+            <div class="tabs registry-tab">
+                <div class="tab-labels">Registry</div>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+    	<div class="main-content">
+    		<!-- <div class="main-pic"></div> -->
+    		<div class="main-msg">
+    			<div>
+    				<i class="fa fa-calendar"></i>
+    				&nbsp;<span>January 28th, 2016 in Scottsdale AZ</span>
+    			</div>
+    			<div>
+    				<i class="fa fa-bullhorn"></i>
+    				&nbsp;<span>35 days to go!</span>
+                </div>
+    		</div>
+    	</div>	
+    </div>
+    <div class="footer">
+        <div>test</div>
+    </div>
+</div>

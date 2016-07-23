@@ -1,0 +1,92 @@
+.slimSnack *, 
+.slimSnack *:before, 
+.slimSnack *:after{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.slim-clearfix:before{
+  content: '';
+  display: table;
+  clear: both;
+}
+.slimSnack{
+  background: #423838;
+  color: #FFF;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  -webkit-animation: slideOpen .5s; /* Chrome, Safari, Opera */ 
+   /*animation: slideOpen 5s infinite;*/
+}
+.slimSnack__containerMessage{}
+
+.slimSnack__messageList{
+  list-style-type: none;
+  opacity: 0;
+  -webkit-animation: showText .5s; /* Chrome, Safari, Opera */ 
+  -webkit-animation-delay: .7s; /* Chrome, Safari, Opera */ 
+  -webkit-animation-fill-mode: forwards;
+}
+.slimSnack__messageItem{
+  line-height: 3em;
+  overflow: hidden;
+   white-space: nowrap;
+}
+
+.slimSnack__messageText{
+  width: calc(100% - 70px);
+  display: block;
+  float: left;
+  text-align: left;
+  text-indent: 1.5em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.slimSnack__action{
+  width: 60px;
+  display: block;
+  float: right;
+  font-size: .9em;
+  text-transform: uppercase;
+  color: #00FF51;
+}
+
+.slimSnack--close{
+  -webkit-animation: slideClose .5s; /* Chrome, Safari, Opera */ 
+  -webkit-animation-delay: .7s; /* Chrome, Safari, Opera */ 
+}
+
+.slimSnack--close .slimSnack__messageList{
+  -webkit-animation: hideText .5s; /* Chrome, Safari, Opera */ 
+  -webkit-animation-fill-mode: forwards;
+}
+
+@media (min-width: 440px) {
+  .slimSnack{
+    width: 340px;
+    border-radius: 3px;
+    bottom: .5em;
+    left: .5em;
+  }
+}
+
+
+/* Chrome, Safari, Opera */ 
+@-webkit-keyframes slideOpen {
+    0%   {width: 0px;}
+}
+@-webkit-keyframes slideClose {
+    100%   {width: 0px;}
+}
+
+/* Chrome, Safari, Opera */ 
+@-webkit-keyframes showText {
+    0%   {opacity: 0;}
+  100% {opacity: 1;}
+}
+@-webkit-keyframes hideText {
+    0%   {opacity: 1;}
+  100% {opacity: 0;}
+}

@@ -1,0 +1,20 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+/********************************
+	bootstrap overrides
+********************************/
+/*This Centers Bootsrap Row*/
+.center{
+	margin: 0 auto;
+	width: 80%;
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+

@@ -1,0 +1,490 @@
+        /********************************************
+                    Home
+********************************************/
+        .home {
+            background: linear-gradient( rgba(22, 22, 23, 0.45), rgba(10, 45, 110, 0.45)), url('/images/macbook2small.jpg');
+            background-size: cover;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            /*background-position: center;*/
+            overflow-x: hidden;
+            /*background: #4D4D51;*/
+            /*height: 100vh;*/
+            /*min-height: 600px;*/
+            /*max-height: 1024px;*/
+            /*min-height: 740px;*/
+            position: relative;
+        }
+
+        .db {
+            display: block;
+        }
+
+        .dn {
+            display: none;
+        }
+        
+        .home-sticky {
+            position: fixed;
+            -webkit-backface-visibility: hidden;
+            bottom: 0;
+            left: 0;
+            padding-left: 10px;
+            color: #89BAE6;
+            font-size: 40px;
+            cursor: pointer;
+        }
+        
+        .home-sticky:hover {
+            color: #1185EF;
+        }
+        
+        .fa-home {
+            cursor: pointer;
+        }
+        
+        .nav {
+            position: absolute;
+            width: 100%;
+            background: white;
+            height: 102px;
+        }
+        
+        .nav ul {
+            float: right;
+            position: relative;
+            top: 23px;
+            right: 94px
+        }
+        
+        .nav-mobile {
+            /*height: 200px;*/
+            display: none;
+            background: white;
+        }
+        
+        .nav-mobile ul {
+            list-style-type: none;
+            margin-top: 5px;
+            background: #FFFFFF;
+            text-align: center;
+            display: none;
+            padding-left: 0;
+        }
+        
+        .nav-mobile li {
+            font-size: 20px;
+            color: #4C4848;
+            cursor: pointer;
+        }
+        
+        .mobile-icon {
+            float: right;
+            margin: 4px 29px;
+            font-size: 36px;
+            color: #564C4C;
+            cursor: pointer;
+        }
+
+        .mobile-close-nav {
+            display: none;
+        }
+        
+        .nav li {
+            list-style-type: none;
+            color: #747272;
+            margin-right: 26px;
+            display: inline-block;
+            font-family: 'Righteous';
+            font-size: 20px;
+            cursor: pointer;
+            padding-bottom: 7px;
+        }
+        
+        .nav li:hover {
+            border-bottom: 8px solid #1185EF;
+            border-radius: 3px;
+        }
+        
+        .logo {
+            background-image: url('/images/JLblueBack.png');
+            margin: 7px 0 0 162px;
+            background-size: cover;
+            height: 44px;
+            width: 44px;
+            position: relative;
+            top: 11px;
+            display: inline-block;
+            cursor: pointer;
+        }
+        
+        .home-content {
+            font-size: 2.4em;
+            width: 71%;
+            margin: 160px auto;
+            /* background: rgba(36,36,54,.2); */
+            color: white;
+            border-radius: 2px;
+            position: relative;
+            top: 22px;
+            font-family: 'Lato';
+        }
+        
+        .me1 {
+            /*background: linear-gradient( rgba(72, 130, 237, 0.09), rgba(10, 45, 110, 0.45)), url('/images/me1.jpg');*/
+            background-image: url('/images/me1.jpg');
+            /*opacity: .6;*/
+            height: 139px;
+            width: 144px;
+            background-size: cover;
+            background-position: center;
+            border-radius: 50%;
+            border: 4px solid white;
+            margin: 17px auto;
+            cursor: pointer;
+            box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+        }
+        
+        .me1:hover {
+            background-image: url('/images/me1.jpg');
+        }
+        
+        .me-msg {
+            width: 50%;
+            margin: 35px auto;
+        }
+        
+        .selected {
+            color: #1185EF !important;
+        }
+        
+        .down-container {
+            text-align: center;
+        }
+        
+        .fa-chevron-down {
+            font-size: 30px;
+        }
+        
+        .fa-chevron-down:hover {
+            color: #2F3954;
+            cursor: pointer;
+        }
+        
+        .home-footer {
+            /*            position: absolute;
+            bottom: 0;
+            -webkit-backface-visibility: hidden;*/
+            color: #2F3954;
+            font-size: 65px;
+            text-align: center;
+            width: 100%;
+        }
+        
+        .icons {
+            margin-bottom: 50px;
+        }
+        
+        .home-footer span {
+            cursor: pointer;
+        }
+        
+        .home-footer span:hover {
+            color: #DEE4E9;
+        }
+        /********************************************
+                    Projects
+********************************************/
+        
+        .header {
+            margin-top: 90px;
+            text-align: center;
+        }
+        
+        .subheader div:first-child {
+            font-size: 40px;
+            font-family: 'Righteous';
+        }
+        
+        .subheader div:nth-child(2) {
+            font-size: 1.2em;
+            width: 65%;
+            border-bottom: 1px solid #F1EEEE;
+            margin: 30px auto;
+            padding-bottom: 65px;
+        }
+        
+        .project1-img-container {
+            width: 60%;
+            padding-left: 5%;
+            float: left;
+        }
+        
+        .project1-img {
+            width: 80%;
+            height: 302px;
+            background: url('/images/m2small.png');
+            background-repeat: no-repeat;
+            background-size: contain;
+            /* border: 1px solid red; */
+            margn: 0 auto;
+            margin: 0 auto;
+        }
+        
+        .project2-img {
+            width: 80%;
+            height: 302px;
+            background: url('/images/puppyLovesmall.png');
+            background-repeat: no-repeat;
+            background-size: contain;
+            /* border: 1px solid red; */
+            margn: 0 auto;
+            margin: 0 auto;
+        }
+        
+        .project3-img {
+            width: 80%;
+            height: 302px;
+            background: url('/images/twitter.png');
+            background-repeat: no-repeat;
+            background-size: contain;
+            /* border: 1px solid red; */
+            margn: 0 auto;
+            margin: 0 auto;
+        }
+        
+        .project4-img {
+            width: 80%;
+            height: 302px;
+            background: url('/images/myLeads.png');
+            background-repeat: no-repeat;
+            background-size: contain;
+            /* border: 1px solid red; */
+            margn: 0 auto;
+            margin: 0 auto;
+        }
+        
+        .project5-img {
+            width: 80%;
+            height: 302px;
+            background: url('/images/wedding.png');
+            background-repeat: no-repeat;
+            background-size: contain;
+            /* border: 1px solid red; */
+            margn: 0 auto;
+            margin: 0 auto;
+        }
+        
+        .project1-content {
+            margin-top: 100px;
+            margin-bottom: 100px;
+        }
+        
+        .project1-info {
+            margin-left: 61%;
+            width: 20%;
+        }
+        
+        .project1-title {
+            font-size: 35px;
+            font-family: 'Lato';
+            margin-top: -15px;
+        }
+        
+        .project1-tags {
+            padding: 15px 0;
+        }
+        
+        .tags {
+            display: inline-block;
+            background: #009BFF;
+            color: white;
+            padding: 3px;
+            border-radius: 4px;
+            font-size: 12px;
+            margin-top: 2px;
+        }
+        
+        .separator {
+            width: 85%;
+            border-bottom: 1px solid #E5E2E2;
+            margin: 100px auto;
+        }
+        /***************************************
+            Journey
+****************************************/
+        
+        .journey {
+            background: #3F4553;
+            color: white;
+        }
+        
+        .journey-title {
+            font-size: 40px;
+            font-family: 'Righteous';
+            text-align: center;
+            padding-top: 65px;
+        }
+        
+        .journey ul {
+            font-size: 30px;
+            font-family: lato;
+            padding: 100px;
+            list-style-type: circle;
+            margin-bottom: 0;
+        }
+        
+        .journey li {
+            margin-bottom: 50px;
+        }
+        /**************************************
+        Contact
+**************************************/
+        
+        .contact-img {
+            background: url('/images/italy.jpg');
+            background-size: cover;
+            height: 400px;
+            background-position: center;
+        }
+        
+        .contact-title {
+            font-size: 40px;
+            font-family: righteous;
+            text-align: center;
+            padding: 77px;
+        }
+        
+        .contact-msg {
+            font-size: 25px;
+            text-align: center;
+        }
+        
+        .contact-email {
+            text-align: center;
+            padding: 43px;
+            font-size: 19px;
+            color: #4C94CE;
+        }
+        
+        .contact-email span:hover {
+            border-bottom: 1px solid;
+            padding-bottom: 13px;
+        }
+        
+        .contact-footer {
+            color: #2F3954;
+            font-size: 65px;
+            text-align: center;
+            width: 100%;
+            margin-top: 36px;
+        }
+
+        .contact-footer span {
+            cursor: pointer;
+        }
+        
+        .footer {
+            background: #1b1b1b;
+            height: 120px;
+            margin-top: 150px;
+        }
+        
+        .footer span {
+            color: #bcbcbc;
+            display: inline-block;
+            text-align: center;
+            margin: 0 auto;
+            display: block;
+            padding-top: 34px;
+            font-size: 16px;
+        }
+        /**************************************
+            Media Queries
+***************************************/
+        
+        @media screen and (max-width: 950px) {
+            .project1-info {
+                width: 35%;
+            }
+            .me-msg {
+                width: 100%;
+            }
+        }
+        
+        @media screen and (max-width: 750px) {
+            .nav {
+                display: none;
+            }
+            .nav-mobile {
+                display: block;
+            }
+            .me1 {
+                height: 115px;
+                width: 115px;
+            }
+            .me-msg {
+                font-size:
+            }
+            .nav li {
+                font-size: 17px;
+            }
+            .home-content {
+                font-size: 25px;
+                margin: 25px auto;
+            }
+            .logo {
+                margin: 1px 0 18px 30px;
+            }
+            .home-footer {
+                display: none;
+            }
+        }
+        
+        @media screen and (max-width: 600px) {
+            .project1-img-container {
+                padding-left: 0;
+                float: none;
+                margin: 0 auto;
+                width: 96%;
+            }
+            .project1-info,
+            .project3-info {
+                width: 80%;
+                margin: 0 auto;
+                margin-top: 50px;
+            }
+            .journey li {
+                font-size: 20px;
+            }
+            .nav li {}
+        }
+        
+        @media screen and (max-width: 420px) {
+            .project1-img-container {
+                height: 224px;
+            }
+            .project1-content {
+                margin-top: 50px;
+            }
+            /*            .logo {
+                background-size: cover;
+                height: 93px;
+                width: 92px;
+                display: block;
+                margin: 29px auto;
+            }*/
+            .home-content {
+                /*margin: 80px auto;*/
+            }
+            .journey ul {
+                padding: 30px;
+            }
+            .journey li {
+                font-size: 15px;
+            }
+            /*      .project1-info {
+            margin-top: 150px;
+        }*/
+        }

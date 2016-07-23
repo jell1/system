@@ -1,0 +1,147 @@
+body {
+	/*background-image: url('/images/cheap_diagonal_fabric.png');*/
+	background-image: url('/images/concrete_wall.png');
+}
+
+.yoda-container .nav {
+}
+
+.yoda-container .header {
+	margin: 0 auto;
+}
+
+.yoda-container .nav {
+	height: 132px;
+	list-style-type: none;
+	text-align: center;
+	opacity: .9;
+	filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+
+.yoda-container .tabs{
+	position: relative;
+	top: 50px;
+	float: none;
+	display: inline-block;
+	height: 82px;
+	font-family: 'Arial Black', sans-serif;
+	color: #7B7272;
+	background-image: url('/images/gray_sand.png');
+	background: black;
+	opacity: .3;
+	filter: alpha(opacity=40); /* For IE8 and earlier */
+	cursor: pointer;
+	border-radius: 4px;
+	/*box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);*/
+} 
+
+.yoda-container .tabs:hover {
+	opacity: 0.5;
+	filter: alpha(opacity=40); /* For IE8 and earlier */
+	border-bottom: 5px solid #8FC7D1;
+}
+
+.yoda-container .tab-labels {
+	padding-top: 30px;
+}
+
+.yoda-container .yoda-main-pic {
+	border-radius: 15px;
+	background-image: url('/images/yoda.jpg');
+	background-size: cover;
+	height: 250px;
+	width: 420px;
+	margin: 0 auto;
+	margin-top: 75px;
+	cursor: pointer;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+#main-pic:hover {
+	opacity: .5;
+}
+
+.yoda-container .yodafy {
+	width: 400px;
+	margin: auto;
+	color: #6C93D9;
+	text-align: center;
+	position: relative;
+	top: 12px;
+	font-size: 1.4em;
+	display: none;
+}
+
+.yoda-text-container {
+	margin-top: 50px;
+}
+
+.yoda-container .yoda-text {
+	float: none;
+	background: #5E6265;
+	color: #D7E0E6;
+	border: 1px solid #587A91;
+	border-radius: 3px;
+	height: 50px;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.yoda-container .fa-cog {
+	font-size: 50px;
+	color: #4274D0;
+}
+
+.yoda-container .yoda-msg {
+	position: relative;
+	top: 80px;
+	color: black;
+	text-align: center;
+	color: #7474B7;
+	font-size: 20px;
+	font-family: fantasy;
+}
+
+.yoda-container .main-msg div:first-child {
+	font-size: 1.8em;
+	color: #87796F;
+}
+
+.yoda-container .fa-diamond {
+	color:#8FC7D1;
+}
+
+.yoda-container .fa-bullhorn {
+	color:#B1B189;
+}
+
+.yoda-container .fa-calendar {
+	color:#9C9CE6;
+}
+
+.yoda-container .fa-gamepad {
+	color:#8FC7D1;
+	font-size: 2em;
+}
+
+@media screen and (max-width: 992px) {
+	.yoda-container .yoda-text {
+		position: relative;
+		top: 254px;
+	}
+
+	.yoda-container .yoda-main-pic {
+		position: relative;
+		top: 238px;
+	}
+
+	.yoda-container .yoda-msg {
+		position: relative;
+		top: 298px;
+		text-align: center;
+	}
+
+	.yoda-container .yodafy {
+		top: 252px;
+	}
+}
+

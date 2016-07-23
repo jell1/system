@@ -1,0 +1,25 @@
+*, *:before, *:after{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.contextMenuMenu{
+  border: 1px solid #333;
+  position: absolute;
+  padding: .5em 1em;
+  z-index: 99;
+  background: #FFF;
+  visibility: hidden;
+}
+.contextMenuMenu__theList{
+  list-style-type: none;
+}
+.contextMenuMenu__listItem{
+  line-height: 2em;
+}
+.contextMenuMenu__theLink{
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
